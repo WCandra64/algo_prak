@@ -11,6 +11,8 @@ int main () {
     cin>>t;
     cout<<"\nLuas permukaan dari balok ini adalah "<<2*(p*l+p*t+l*t)<<endl;
     cout<<"Volume dari balok ini adalah "<<p*l*t<<endl;
+    bool x = "Kami"<"Kamu";
+    cout<<x<<endl;
 
     return 0;
 }
