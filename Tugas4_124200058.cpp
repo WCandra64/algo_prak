@@ -49,7 +49,7 @@ int main () {
             for (int x = 1; x <= m; x++) {
                 pangkat *= n;
 
-                if (x !=m ) {
+                if (x != m ) {
                     cout<<n<<" x ";
                 } else {
                     cout<<n<<" = "<<pangkat;
