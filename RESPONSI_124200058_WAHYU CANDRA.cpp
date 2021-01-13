@@ -97,8 +97,6 @@ void tambah () {
         getline(cin, makananLokal[i]);
         cout<<"Banyak Bahan\t: ";
         cin>>byk_bahanLokal[i];
-        string arrStr[byk_bahanLokal[i]];
-        int arrInt[byk_bahanLokal[i]];
         nm_bahanLokal[i] = new string [byk_bahanLokal[i]];
         jml_bahanLokal[i] = new int [byk_bahanLokal[i]];
         hrg_bahanLokal[i] = new int [byk_bahanLokal[i]];
